@@ -11,6 +11,14 @@
     "require": false
   },
   "rules": {
-    "one-var": [ "off" ]
+    "one-var": [ "off" ],
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxBOF": 1, "maxEOF": 1 }],
+    "no-mixed-operators": ["error", {
+      "groups": [
+        ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+        ["in", "instanceof"]
+      ],
+      "allowSamePrecedence": true
+    }]
   }
 }
