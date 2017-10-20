@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-standard-analysys",
+  "name": "eslint-config-fedor",
   "description": "JavaScript Standard Style - ESLint Shareable Config",
   "version": "1.0.1",
   "author": {
@@ -40,6 +40,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedorio/eslint-config-fedor.git"
+  },
   "peerDependencies": {
     "eslint": ">=4.3.0",
     "eslint-plugin-html": ">=3.2.0"
